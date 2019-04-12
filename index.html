@@ -62,52 +62,6 @@
       <div class="outer">
         <section id="main">
   
-    <article id="post-article-title" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2019/04/12/article-title/" class="article-date">
-  <time datetime="2019-04-12T06:02:25.000Z" itemprop="datePublished">2019-04-12</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/04/12/article-title/">article title</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>zsh: command not found:nvm….解决办法</p>
-<p>##解决方案<br>首先是在zsh未找到nvm，所以应该检查zsh的环境变量文件.zshrc。发现没有和nvm相关行。因为nvm的安装脚本把定义添加在了默认的bash的.bash_profile里，所以需要将引用copy到.zshrc</p>
-<blockquote>
-<p>export NVM_DIR=”$HOME/.nvm”</p>
-<p>[ -s “$NVM_DIR/nvm.sh” ] &amp;&amp; . “$NVM_DIR/nvm.sh”  # This loads nvm</p>
-<p>[ -s “$NVM_DIR/bash_completion” ] &amp;&amp; . “$NVM_DIR/bash_completion”  # This loads nvm bash_completion</p>
-</blockquote>
-<p>重启终端即可</p>
-<p>##后续总结<br>其实这次会出现这问题的原因很简单，就是备考太久有点生了，不记得自己把bash换成zsh了。</p>
-<p>所以安装的时候nvm自动在~/.bash_profile下定义了环境，可是我换了zsh了，之前觉得在.zshrc里引用怪怪的，每次都是手动把.bash_profile内容copy到.bash_profile里，所以</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/04/12/article-title/" data-id="cjudo19ey00004o50e2ixw2ne" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
     <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2019/04/11/hello-world/" class="article-date">
@@ -143,7 +97,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/04/11/hello-world/" data-id="cjudo19f400014o50sos7m1a4" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/04/11/hello-world/" data-id="cjudovc250000au50aqc8htsn" class="article-share-link">Share</a>
       
       
     </footer>
@@ -182,10 +136,6 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
-        
-          <li>
-            <a href="/2019/04/12/article-title/">article title</a>
-          </li>
         
           <li>
             <a href="/2019/04/11/hello-world/">Hello World</a>
