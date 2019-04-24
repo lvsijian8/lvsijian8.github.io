@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.lvsijian.cn/"/>
-  <updated>2019-04-22T14:41:28.075Z</updated>
+  <updated>2019-04-23T10:46:57.000Z</updated>
   <id>https://blog.lvsijian.cn/</id>
   
   <author>
@@ -17,11 +17,40 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>我的MD教程</title>
+    <link href="https://blog.lvsijian.cn/2019/04/23/%E6%88%91%E7%9A%84MD%E6%95%99%E7%A8%8B/"/>
+    <id>https://blog.lvsijian.cn/2019/04/23/我的MD教程/</id>
+    <published>2019-04-23T10:46:57.000Z</published>
+    <updated>2019-04-23T10:46:57.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://blog.lvsijian.cn">博客链接</a></p><p><a href="https://blog.lvsijian.cn">https://blog.lvsijian.cn</a></p><p><em>斜体</em>。。。。<strong>加粗</strong>。。。。<del>删除线</del></p><p>分割线2</p><a id="more"></a><hr><figure class="highlight c hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">include &lt;stdio.h&gt;</span><br><span class="line"><span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span>&#123;</span><br><span class="line"><span class="hljs-keyword">int</span> a=<span class="hljs-number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>行内代码<code>var hmt = []</code></p><ol><li>首先</li><li>其次</li><li>最后</li></ol><ul><li>0 列表</li><li>1</li><li>2</li></ul><blockquote><p>引用</p><p>鲁迅说过</p><blockquote><p>我没说过</p></blockquote></blockquote><p><img src="https://images.lvsijian.cn/picGO/Blog/MD教程.jpg?imageslim" alt="MD教程"></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://blog.lvsijian.cn&quot;&gt;博客链接&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.lvsijian.cn&quot;&gt;https://blog.lvsijian.cn&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;斜体&lt;/em&gt;。。。。&lt;strong&gt;加粗&lt;/strong&gt;。。。。&lt;del&gt;删除线&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;分割线2&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="写作" scheme="https://blog.lvsijian.cn/categories/%E5%86%99%E4%BD%9C/"/>
+    
+      <category term="Markdown" scheme="https://blog.lvsijian.cn/categories/%E5%86%99%E4%BD%9C/Markdown/"/>
+    
+    
+      <category term="Markdown" scheme="https://blog.lvsijian.cn/tags/Markdown/"/>
+    
+      <category term="教程" scheme="https://blog.lvsijian.cn/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
     <title>zsh: command not found:nvm....解决办法</title>
     <link href="https://blog.lvsijian.cn/2019/04/11/command-not-found-nvm/"/>
     <id>https://blog.lvsijian.cn/2019/04/11/command-not-found-nvm/</id>
     <published>2019-04-11T15:53:42.000Z</published>
-    <updated>2019-04-22T14:41:28.075Z</updated>
+    <updated>2019-04-21T15:53:42.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h2><p>以前总是喜欢把东西都放自己服务器上，觉得靠谱。现在深知服务器贵，之前用比赛续费了3年的1c1m小水管禁不起折腾，所以想在GitHub上挂静态Blog+CDN了。然后最近考完了就开始着手搭博客结果安到nvm就卡住了。。。</p><a id="more"></a><h2 id="实际情况"><a href="#实际情况" class="headerlink" title="实际情况"></a>实际情况</h2><p>按readme安完发现终端里找不到nvm，经过无数排查最终才发现是安装脚本只在默认的bash的.bash_profile里添加了环境变量。</p><p>可是我自己换了zsh，我忘了环境变量的地方是不一样的。所以就直接在.zshrc里添加环境变量解决。就是下面这几句<br><figure class="highlight bash hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="hljs-built_in">export</span> NVM_DIR=<span class="hljs-string">"<span class="hljs-variable">$HOME</span>/.nvm"</span></span><br><span class="line">[ -s “KaTeX parse error: Expected <span class="hljs-string">'EOF'</span>, got <span class="hljs-string">'&amp;'</span> at position 19: …_DIR/nvm.sh<span class="hljs-string">" ] &amp;̲&amp; \. "</span>NVM_DIR/nvm.sh” <span class="hljs-comment"># This loads nvm</span></span><br><span class="line">[ -s “KaTeX parse error: Expected <span class="hljs-string">'EOF'</span>, got <span class="hljs-string">'&amp;'</span> at position 28: …_completion<span class="hljs-string">" ] &amp;̲&amp; \. "</span>NVM_DIR/bash_completion” <span class="hljs-comment"># This loads nvm bash_completion</span></span><br></pre></td></tr></table></figure></p><p>快两年没敲代码自己的shell是啥都不记得了</p><h2 id="未解决的强迫症疑问"><a href="#未解决的强迫症疑问" class="headerlink" title="未解决的强迫症疑问"></a>未解决的强迫症疑问</h2><p>总是觉得在.zshrc里用 source ~/.bash_profile 引用会怪怪的。所以之前都是手动吧.bash_profile里的内容copy到.zshrc。这次忘了就凉了。</p><p>所以应该直接用source ~/.bash_profile吗。。。</p>]]></content>
     
@@ -78,13 +107,13 @@
     <link href="https://blog.lvsijian.cn/2017/03/01/%E5%A4%87%E4%BB%BD%E7%9A%84%E6%B7%B1%E5%BA%A6%E5%92%8C%E5%B9%BF%E5%BA%A6/"/>
     <id>https://blog.lvsijian.cn/2017/03/01/备份的深度和广度/</id>
     <published>2017-03-01T05:02:48.000Z</published>
-    <updated>2019-04-22T15:03:17.860Z</updated>
+    <updated>2017-03-01T05:02:48.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="失"><a href="#失" class="headerlink" title="失"></a>失</h2><p>一直觉得我的备份工作做得不错，可能因为以前爱折腾，经常刷手机折腾电脑，每次刷机备份数据都是必须的。所以无论是我的电脑还是手机，都会在多处有着备份，并且会定期对备份进行更新。<br>即使是这样，百密一疏。今天还是差点之前做的整个项目就不见了，仔细想想可能是因为之前折腾安卓的ＩＤＥ的时候不知道怎么给弄没的。（再一次吐槽安卓乱七八糟的环境）</p><a id="more"></a><h2 id="而"><a href="#而" class="headerlink" title="而"></a>而</h2><p>发现项目不见了立刻查看电脑里其他文件夹的备份，发现也没有。因为我更新备份都是整个覆盖更新的，所以只保留了最新的版本。然后我更新的又比较勤快。。。。。（所以更新勤快反而成了弊端）</p><h2 id="復得"><a href="#復得" class="headerlink" title="復得"></a>復得</h2><p>然后只能回宿舍看看宿舍硬盘里的备份还有没有残留。这次真的是要感谢苹果那2T的时间胶囊了。真的是没有它就gg了，也好彩给时间胶囊备份的硬盘容量比较大。其实之前想删除时间胶囊的历史备份重新备份过的，现在回想起来好险（就是毛病，和总是喜欢清空回收站一样，清完没多久就又要用到了）</p><h2 id="注"><a href="#注" class="headerlink" title="注"></a>注</h2><p>没用过mac的人可能会对时间胶囊有点陌生,苹果的时间胶囊就是可以对mac进行以小时为单位的增量备份的一个程序,通常配合无线硬盘or路由器食用效果更佳,可是前段时间因为嫌弃苹果内置硬盘的路由器就卖给同学了,现在还在等小米新款的小米路由器HD上市的空窗期.<br>所以最近只是偶尔会用移动硬盘时间胶囊备份一下</p><h2 id="所以"><a href="#所以" class="headerlink" title="所以"></a>所以</h2><p>通常都说不要把鸡蛋放在同一个篮子里，这里说的是避灾系统的广度。但是没有提及到深度，我以前也一直都没有注意到这个问题所以这次才会差点gg，之前都是多处备份并且及时覆盖更新，这样可以做到就算多处备份同时故障也可以保证全部数据的安全性。但是却没有考虑到最新的备份不一定是安全的，可能会有一些现在无法发现暴露的问题。<br>所以说要有深度的备份，但是如果是每次都全部备份并且保留历史那空间利用率将会非常的低，增量备份一般都只能用软件记录实现而这类软件也很明显是异常是稀有，我也就知道一个苹果的时间胶囊。所以现在只能期待小米路由器HD可以早点买到了。不然天天提心吊胆的感觉。</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="失"><a href="#失" class="headerlink" title="失"></a>失</h2><p>一直觉得我的备份工作做得不错，可能因为以前爱折腾，经常刷手机折腾电脑，每次刷机备份数据都是必须的。所以无论是我的电脑还是手机，都会在多处有着备份，并且会定期对备份进行更新。<br>即使是这样，百密一疏。今天还是差点之前做的整个项目就不见了，仔细想想可能是因为之前折腾安卓的IDE的时候不知道怎么给弄没的。（再一次吐槽安卓乱七八糟的环境）</p><a id="more"></a><h2 id="而"><a href="#而" class="headerlink" title="而"></a>而</h2><p>发现项目不见了立刻查看电脑里其他文件夹的备份，发现也没有。因为我更新备份都是整个覆盖更新的，所以只保留了最新的版本。然后我更新的又比较勤快。。。。。（所以更新勤快反而成了弊端）</p><h2 id="復得"><a href="#復得" class="headerlink" title="復得"></a>復得</h2><p>然后只能回宿舍看看宿舍硬盘里的备份还有没有残留。这次真的是要感谢苹果那2T的时间胶囊了。真的是没有它就gg了，也好彩给时间胶囊备份的硬盘容量比较大。其实之前想删除时间胶囊的历史备份重新备份过的，现在回想起来好险（就是毛病，和总是喜欢清空回收站一样，清完没多久就又要用到了）</p><h2 id="注"><a href="#注" class="headerlink" title="注"></a>注</h2><p>没用过mac的人可能会对时间胶囊有点陌生,苹果的时间胶囊就是可以对mac进行以小时为单位的增量备份的一个程序,通常配合无线硬盘or路由器食用效果更佳,可是前段时间因为嫌弃苹果内置硬盘的路由器就卖给同学了,现在还在等小米新款的小米路由器HD上市的空窗期.<br>所以最近只是偶尔会用移动硬盘时间胶囊备份一下</p><h2 id="所以"><a href="#所以" class="headerlink" title="所以"></a>所以</h2><p>通常都说不要把鸡蛋放在同一个篮子里，这里说的是避灾系统的广度。但是没有提及到深度，我以前也一直都没有注意到这个问题所以这次才会差点gg，之前都是多处备份并且及时覆盖更新，这样可以做到就算多处备份同时故障也可以保证全部数据的安全性。但是却没有考虑到最新的备份不一定是安全的，可能会有一些现在无法发现暴露的问题。<br>所以说要有深度的备份，但是如果是每次都全部备份并且保留历史那空间利用率将会非常的低，增量备份一般都只能用软件记录实现而这类软件也很明显是异常是稀有，我也就知道一个苹果的时间胶囊。所以现在只能期待小米路由器HD可以早点买到了。不然天天提心吊胆的感觉。</p>]]></content>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;失&quot;&gt;&lt;a href=&quot;#失&quot; class=&quot;headerlink&quot; title=&quot;失&quot;&gt;&lt;/a&gt;失&lt;/h2&gt;&lt;p&gt;一直觉得我的备份工作做得不错，可能因为以前爱折腾，经常刷手机折腾电脑，每次刷机备份数据都是必须的。所以无论是我的电脑还是手机，都会在多处有着备份，并且会定期对备份进行更新。&lt;br&gt;即使是这样，百密一疏。今天还是差点之前做的整个项目就不见了，仔细想想可能是因为之前折腾安卓的ＩＤＥ的时候不知道怎么给弄没的。（再一次吐槽安卓乱七八糟的环境）&lt;/p&gt;
+      &lt;h2 id=&quot;失&quot;&gt;&lt;a href=&quot;#失&quot; class=&quot;headerlink&quot; title=&quot;失&quot;&gt;&lt;/a&gt;失&lt;/h2&gt;&lt;p&gt;一直觉得我的备份工作做得不错，可能因为以前爱折腾，经常刷手机折腾电脑，每次刷机备份数据都是必须的。所以无论是我的电脑还是手机，都会在多处有着备份，并且会定期对备份进行更新。&lt;br&gt;即使是这样，百密一疏。今天还是差点之前做的整个项目就不见了，仔细想想可能是因为之前折腾安卓的IDE的时候不知道怎么给弄没的。（再一次吐槽安卓乱七八糟的环境）&lt;/p&gt;
     
     </summary>
     
