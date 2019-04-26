@@ -65,11 +65,11 @@
       <category term="终端" scheme="https://blog.lvsijian.cn/categories/%E5%BC%80%E5%8F%91/%E7%BB%88%E7%AB%AF/"/>
     
     
+      <category term="bash" scheme="https://blog.lvsijian.cn/tags/bash/"/>
+    
       <category term="zsh" scheme="https://blog.lvsijian.cn/tags/zsh/"/>
     
       <category term="nvm" scheme="https://blog.lvsijian.cn/tags/nvm/"/>
-    
-      <category term="bash" scheme="https://blog.lvsijian.cn/tags/bash/"/>
     
   </entry>
   
@@ -180,11 +180,11 @@
       <category term="终端" scheme="https://blog.lvsijian.cn/categories/%E5%BC%80%E5%8F%91/%E7%BB%88%E7%AB%AF/"/>
     
     
-      <category term="bash" scheme="https://blog.lvsijian.cn/tags/bash/"/>
-    
       <category term="brew" scheme="https://blog.lvsijian.cn/tags/brew/"/>
     
       <category term="终端" scheme="https://blog.lvsijian.cn/tags/%E7%BB%88%E7%AB%AF/"/>
+    
+      <category term="bash" scheme="https://blog.lvsijian.cn/tags/bash/"/>
     
   </entry>
   
