@@ -208,11 +208,11 @@
       <category term="mac" scheme="https://blog.lvsijian.cn/categories/%E9%97%B2%E8%81%8A/mac/"/>
     
     
-      <category term="mac" scheme="https://blog.lvsijian.cn/tags/mac/"/>
-    
       <category term="Time Machine" scheme="https://blog.lvsijian.cn/tags/Time-Machine/"/>
     
       <category term="小米路由器" scheme="https://blog.lvsijian.cn/tags/%E5%B0%8F%E7%B1%B3%E8%B7%AF%E7%94%B1%E5%99%A8/"/>
+    
+      <category term="mac" scheme="https://blog.lvsijian.cn/tags/mac/"/>
     
   </entry>
   
@@ -262,11 +262,11 @@
       <category term="mac" scheme="https://blog.lvsijian.cn/categories/%E9%97%B2%E8%81%8A/mac/"/>
     
     
+      <category term="备份" scheme="https://blog.lvsijian.cn/tags/%E5%A4%87%E4%BB%BD/"/>
+    
       <category term="Time Machine" scheme="https://blog.lvsijian.cn/tags/Time-Machine/"/>
     
       <category term="小米路由器" scheme="https://blog.lvsijian.cn/tags/%E5%B0%8F%E7%B1%B3%E8%B7%AF%E7%94%B1%E5%99%A8/"/>
-    
-      <category term="备份" scheme="https://blog.lvsijian.cn/tags/%E5%A4%87%E4%BB%BD/"/>
     
   </entry>
   
@@ -277,14 +277,12 @@
     <published>2016-11-01T02:57:44.000Z</published>
     <updated>2016-11-01T02:57:44.000Z</updated>
     
-    <content type="html"><![CDATA[<p>从去年的Xcode 7开始，就可以在不加入每年99美元的苹果开发者计划的情况下进行真机调试了。</p><p>首先确保你安装的Xcode应用程序是7以上的版本，进入Xcode后，点击左上角Xcode菜单中的Preferences，进入Accounts标签中点击左下角的加号登陆添加的你Apple ID，添加成功后界面如下图，选中账户后点击右下角的View Details。</p><p><img src="https://images.lvsijian.cn/picGO/Blog/Xcode-Accounts.png?imageslim" alt="Xcode-Accounts"></p><p>等加载完后点击iOS Development右侧的create并右键export即可，<br><a id="more"></a><br><img src="https://images.lvsijian.cn/picGO/Blog/Xcode-export.png?imageslim" alt="Xcode-export"></p><p>接下来进入需要真机调试的iOS项目，在左侧点击项目名，在项目General页的Team中选中刚才添加对应的Apple ID项即可</p><p><img src="https://images.lvsijian.cn/picGO/Blog/Xcode-General.jpg?imageslim" alt="Xcode-General"></p><p>然后链接手机运行iOS项目并在手机上的设置，通用，描述文件中选择信任刚刚运行的iOS项目程序即可</p>]]></content>
+    <content type="html"><![CDATA[<p>从去年的Xcode 7开始，就可以在不加入每年99美元的苹果开发者计划的情况下进行真机调试了。</p><p>首先确保你安装的Xcode应用程序是7以上的版本，进入Xcode后，点击左上角Xcode菜单中的Preferences，进入Accounts标签中点击左下角的加号登陆添加的你Apple ID，添加成功后界面如下图，选中账户后点击右下角的View Details。<br><a id="more"></a><br><img src="https://images.lvsijian.cn/picGO/Blog/Xcode-Accounts.png?imageslim" alt="Xcode-Accounts"></p><p>等加载完后点击iOS Development右侧的create并右键export即可，</p><p><img src="https://images.lvsijian.cn/picGO/Blog/Xcode-export.png?imageslim" alt="Xcode-export"></p><p>接下来进入需要真机调试的iOS项目，在左侧点击项目名，在项目General页的Team中选中刚才添加对应的Apple ID项即可</p><p><img src="https://images.lvsijian.cn/picGO/Blog/Xcode-General.jpg?imageslim" alt="Xcode-General"></p><p>然后链接手机运行iOS项目并在手机上的设置，通用，描述文件中选择信任刚刚运行的iOS项目程序即可</p>]]></content>
     
     <summary type="html">
     
       &lt;p&gt;从去年的Xcode 7开始，就可以在不加入每年99美元的苹果开发者计划的情况下进行真机调试了。&lt;/p&gt;
-&lt;p&gt;首先确保你安装的Xcode应用程序是7以上的版本，进入Xcode后，点击左上角Xcode菜单中的Preferences，进入Accounts标签中点击左下角的加号登陆添加的你Apple ID，添加成功后界面如下图，选中账户后点击右下角的View Details。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://images.lvsijian.cn/picGO/Blog/Xcode-Accounts.png?imageslim&quot; alt=&quot;Xcode-Accounts&quot;&gt;&lt;/p&gt;
-&lt;p&gt;等加载完后点击iOS Development右侧的create并右键export即可，&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;首先确保你安装的Xcode应用程序是7以上的版本，进入Xcode后，点击左上角Xcode菜单中的Preferences，进入Accounts标签中点击左下角的加号登陆添加的你Apple ID，添加成功后界面如下图，选中账户后点击右下角的View Details。&lt;br&gt;&lt;/p&gt;
     
     </summary>
     
