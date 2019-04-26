@@ -34,9 +34,9 @@
     
     </summary>
     
-      <category term="写作" scheme="https://blog.lvsijian.cn/categories/%E5%86%99%E4%BD%9C/"/>
+      <category term="闲聊" scheme="https://blog.lvsijian.cn/categories/%E9%97%B2%E8%81%8A/"/>
     
-      <category term="Markdown" scheme="https://blog.lvsijian.cn/categories/%E5%86%99%E4%BD%9C/Markdown/"/>
+      <category term="Markdown" scheme="https://blog.lvsijian.cn/categories/%E9%97%B2%E8%81%8A/Markdown/"/>
     
     
       <category term="Markdown" scheme="https://blog.lvsijian.cn/tags/Markdown/"/>
@@ -62,7 +62,7 @@
     
       <category term="开发" scheme="https://blog.lvsijian.cn/categories/%E5%BC%80%E5%8F%91/"/>
     
-      <category term="zsh" scheme="https://blog.lvsijian.cn/categories/%E5%BC%80%E5%8F%91/zsh/"/>
+      <category term="终端" scheme="https://blog.lvsijian.cn/categories/%E5%BC%80%E5%8F%91/%E7%BB%88%E7%AB%AF/"/>
     
     
       <category term="zsh" scheme="https://blog.lvsijian.cn/tags/zsh/"/>
@@ -80,25 +80,165 @@
     <published>2019-04-11T15:21:56.000Z</published>
     <updated>2019-04-12T15:21:56.000Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="hljs-string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><a id="more"></a><figure class="highlight bash hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p><figure class="highlight c hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span><span class="hljs-meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span> </span>&#123;</span><br><span class="line"><span class="hljs-keyword">int</span> a;</span><br><span class="line">a = <span class="hljs-number">0</span>;</span><br><span class="line"><span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<p>终于有机会自建Blog啦，顺便把以前在CSDN <a href="https://blog.csdn.net/lvsijian8" target="_blank" rel="noopener">blog.csdn.net/lvsijian8</a> 的一些文章搬了过来。</p><p>这次从一开始的安装设置Hexo，部署到gh，选主题，自定义主题。到后面把国内流量DNS到CDN加速，国外直接DNS到GitHubPaper。然后在CDN缓冲刷新上坑了好久(其实现在也还在坑里有点懵)然后现在终于差不多，算完成1.0了。嘻嘻</p>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash hljs&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;hljs-string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/writing.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Writing&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Run-server&quot;&gt;&lt;a href=&quot;#Run-server&quot; class=&quot;headerlink&quot; title=&quot;Run server&quot;&gt;&lt;/a&gt;Run server&lt;/h3&gt;
+      
+      
+        &lt;p&gt;终于有机会自建Blog啦，顺便把以前在CSDN &lt;a href=&quot;https://blog.csdn.net/lvsijian8&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;blog.csdn.net/lvsijian8&lt;/a&gt; 的一些文章搬了过来。&lt;/
+      
+    
+    </summary>
+    
+      <category term="闲聊" scheme="https://blog.lvsijian.cn/categories/%E9%97%B2%E8%81%8A/"/>
+    
+      <category term="blog" scheme="https://blog.lvsijian.cn/categories/%E9%97%B2%E8%81%8A/blog/"/>
+    
+    
+      <category term="CSDN" scheme="https://blog.lvsijian.cn/tags/CSDN/"/>
+    
+      <category term="blog" scheme="https://blog.lvsijian.cn/tags/blog/"/>
+    
+      <category term="Hexo" scheme="https://blog.lvsijian.cn/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>开启CDN后登陆出现564错误</title>
+    <link href="https://blog.lvsijian.cn/2019/01/29/%E5%BC%80%E5%90%AFCDN%E5%90%8E%E7%99%BB%E9%99%86%E5%87%BA%E7%8E%B0564%E9%94%99%E8%AF%AF/"/>
+    <id>https://blog.lvsijian.cn/2019/01/29/开启CDN后登陆出现564错误/</id>
+    <published>2019-01-29T03:51:18.000Z</published>
+    <updated>2019-01-29T03:51:18.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>很早就开头了腾讯云的CDN，只是之前一直没时间留意。最近留意搭建静态博客看到CDN对静态内容的加速，所以先打开试一下加速之前的几个动态网站，因为服务器一直都是一块钱的学生机，所以只有1M的带宽。。。网站有几个页面有个1m的ECharts.js，500kb的js和一些图片，导致有ECharts的那个页面首次无缓冲打开要10s。。。。一直耿耿于怀所以有了接下来的折腾<br><a id="more"></a><br>设置大都挺简单，跟着自带手册引导足矣，一个要注意的是，因为我开了一级域名的邮箱域名，所以一级域名的MX已经被用了，再设置一级域名跳转到CDN服务器会和MX记录冲突，所以只能设置www. 的二级域名开启CDN(这个问题其实一开始就应该解决好的。。。一开始就应该只留www. 的二级域名开启一级域名301转发到www.，之前同时开启了二级域名和一级域名指向服务器，这样容易导致浏览器缓存也会误判)。然后也顺便可以把开启了CDN的www和没开的一级域名做个对比，效果还是很显著的在那个要10s的界面。。。。。然后结果发现无法登陆了，一开始看到564还以为是后台的问题检查对比代码排查以为是登陆cookie传输的问题。。。结果并不是，把qcloud的CDN各种设置组合都试过了都不行。。。</p><p>最后发现一个问题。。。CDN把动态页面也加速了。。。之前开通的比较早，CDN默认设置不太好，现在开通的默认设置以及自动包括.jsp等动态页面了，然后设置好缓存配置就ok了。。。给大家参考一下我的缓存配置<br><img src="https://images.lvsijian.cn/picGO/Blog/cdn配置.jpg?imageslim" alt="cdn配置"></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;很早就开头了腾讯云的CDN，只是之前一直没时间留意。最近留意搭建静态博客看到CDN对静态内容的加速，所以先打开试一下加速之前的几个动态网站，因为服务器一直都是一块钱的学生机，所以只有1M的带宽。。。网站有几个页面有个1m的ECharts.js，500kb的js和一些图片，导致有ECharts的那个页面首次无缓冲打开要10s。。。。一直耿耿于怀所以有了接下来的折腾&lt;br&gt;&lt;/p&gt;
     
     </summary>
     
       <category term="开发" scheme="https://blog.lvsijian.cn/categories/%E5%BC%80%E5%8F%91/"/>
     
-      <category term="java" scheme="https://blog.lvsijian.cn/categories/%E5%BC%80%E5%8F%91/java/"/>
+      <category term="cdn" scheme="https://blog.lvsijian.cn/categories/%E5%BC%80%E5%8F%91/cdn/"/>
     
     
-      <category term="Map" scheme="https://blog.lvsijian.cn/tags/Map/"/>
+      <category term="cdn" scheme="https://blog.lvsijian.cn/tags/cdn/"/>
     
-      <category term="HashMap" scheme="https://blog.lvsijian.cn/tags/HashMap/"/>
+      <category term="564" scheme="https://blog.lvsijian.cn/tags/564/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git永久删除文件(包括历史记录)</title>
+    <link href="https://blog.lvsijian.cn/2017/05/23/Git%E6%B0%B8%E4%B9%85%E5%88%A0%E9%99%A4%E6%96%87%E4%BB%B6-%E5%8C%85%E6%8B%AC%E5%8E%86%E5%8F%B2%E8%AE%B0%E5%BD%95/"/>
+    <id>https://blog.lvsijian.cn/2017/05/23/Git永久删除文件-包括历史记录/</id>
+    <published>2017-05-23T04:28:03.000Z</published>
+    <updated>2017-05-23T04:28:03.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>有些时候不小心上传了一些敏感文件(例如密码), 或者不想上传的文件(没及时或忘了加到.gitignore里的),</p><p>而且上传的文件又特别大的时候, 这将导致别人clone你的代码或下载zip包的时候也必须更新或下载这些无用的文件,</p><p>因此, 我们需要一个方法, 永久的删除这些文件(包括该文件的历史记录).</p><p>首先, 可以参考 github 的帮助:<br><a href="https://help.github.com/articles/remove-sensitive-data" target="_blank" rel="noopener">help.github.com</a><br><a id="more"></a></p><h2 id="步骤一-从你的资料库中清除文件"><a href="#步骤一-从你的资料库中清除文件" class="headerlink" title="步骤一: 从你的资料库中清除文件"></a>步骤一: 从你的资料库中清除文件</h2><p>以Windows下为例(Linux类似)，打开项目的Git Bash，使用命令：<br><figure class="highlight bash hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git filter-branch --force --index-filter <span class="hljs-string">'git rm --cached --ignore-unmatch path-to-your-remove-file'</span> --prune-empty --tag-name-filter cat -- --all</span><br></pre></td></tr></table></figure></p><p>其中, path-to-your-remove-file 就是你要删除的文件的相对路径(相对于git仓库的跟目录), 替换成你要删除的文件即可.</p><p>如果你要删除的文件很多, 可以写进一个.sh文件批量执行, 如果文件或路径里有中文, 由于MinGW或CygWin对中文路径设置比较麻烦, 你可以使用通配符号, 例如: sound/music_.mp3, 这样就把sound目录下以music_开头的mp3文件都删除了.</p><p>例如这样, del-music-mp3.sh:</p><figure class="highlight bash hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="hljs-meta">#!/bin/bash</span></span><br><span class="line"></span><br><span class="line"><span class="hljs-comment"># git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch projects/Moon.mp3' --prune-empty --tag-name-filter cat -- --all</span></span><br><span class="line"><span class="hljs-comment"># git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch sound/Music_*.mp3' --prune-empty --tag-name-filter cat -- --all</span></span><br></pre></td></tr></table></figure><p>如果你看到类似下面这样的, 就说明删除成功了:<br><figure class="highlight bash hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Rewrite 48dc599c80e20527ed902928085e7861e6b3cbe6 (266/266)</span><br><span class="line"><span class="hljs-comment"># Ref 'refs/heads/master' was rewritten</span></span><br></pre></td></tr></table></figure></p><p>如果显示 xxxxx unchanged, 说明repo里没有找到该文件, 请检查路径和文件名是否正确.</p><p>注意: 补充一点, 如果你想以后也不会再上传这个文件或文件夹, 请把这个文件或文件夹添加到.gitignore文件里, 然后再push你的repo.</p><h2 id="步骤二-推送我们修改后的repo"><a href="#步骤二-推送我们修改后的repo" class="headerlink" title="步骤二: 推送我们修改后的repo"></a>步骤二: 推送我们修改后的repo</h2><p>以强制覆盖的方式推送你的repo, 命令如下:<br><figure class="highlight bash hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push origin master --force</span><br></pre></td></tr></table></figure></p><p>这个过程其实是重新上传我们的repo, 比较耗时, 虽然跟删掉重新建一个repo有些类似, 但是好处是保留了原有的更新记录, 所以还是有些不同的. 如果你实在不在意这些更新记录, 也可以删掉重建, 两者也差不太多, 也许后者还更直观些.</p><p>执行结果类似下面:<br><figure class="highlight bash hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">Counting objects: 4669, <span class="hljs-keyword">done</span>.</span><br><span class="line">Delta compression using up to 4 threads.</span><br><span class="line">Compressing objects: 100% (4352/4352), <span class="hljs-keyword">done</span>.</span><br><span class="line">Writing objects: 100% (4666/4666), 35.16 MiB | 51 KiB/s, <span class="hljs-keyword">done</span>.</span><br><span class="line">Total 4666 (delta 1361), reused 0 (delta 0)</span><br><span class="line">To https://github.com/defunkt/github-gem.git</span><br><span class="line"> 1. beb839d...81f21f3 master -&gt; master (forced update)</span><br></pre></td></tr></table></figure></p><h2 id="步骤三-清理和回收空间"><a href="#步骤三-清理和回收空间" class="headerlink" title="步骤三: 清理和回收空间"></a>步骤三: 清理和回收空间</h2><p>虽然上面我们已经删除了文件, 但是我们的repo里面仍然保留了这些objects, 等待垃圾回收(GC), 所以我们要用命令彻底清除它, 并收回空间.</p><p>命令如下:<br><figure class="highlight bash hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">rm -rf .git/refs/original/</span><br><span class="line"></span><br><span class="line">git reflog expire --expire=now --all</span><br><span class="line"></span><br><span class="line">git gc --prune=now</span><br><span class="line">Counting objects: 2437, <span class="hljs-keyword">done</span>.</span><br><span class="line"><span class="hljs-comment"># Delta compression using up to 4 threads.</span></span><br><span class="line"><span class="hljs-comment"># Compressing objects: 100% (1378/1378), done.</span></span><br><span class="line"><span class="hljs-comment"># Writing objects: 100% (2437/2437), done.</span></span><br><span class="line"><span class="hljs-comment"># Total 2437 (delta 1461), reused 1802 (delta 1048)</span></span><br><span class="line">git gc --aggressive --prune=now</span><br><span class="line">Counting objects: 2437, <span class="hljs-keyword">done</span>.</span><br><span class="line"><span class="hljs-comment"># Delta compression using up to 4 threads.</span></span><br><span class="line"><span class="hljs-comment"># Compressing objects: 100% (2426/2426), done.</span></span><br><span class="line"><span class="hljs-comment"># Writing objects: 100% (2437/2437), done.</span></span><br><span class="line"><span class="hljs-comment"># Total 2437 (delta 1483), reused 0 (delta 0)</span></span><br></pre></td></tr></table></figure></p><p>现在你再看看你的.git目录文件大小是不是变小了.</p><p>感谢: <a href="http://www.cnblogs.com/shines77/p/3460274.html" target="_blank" rel="noopener">cnblogs.com/shines77</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;有些时候不小心上传了一些敏感文件(例如密码), 或者不想上传的文件(没及时或忘了加到.gitignore里的),&lt;/p&gt;
+&lt;p&gt;而且上传的文件又特别大的时候, 这将导致别人clone你的代码或下载zip包的时候也必须更新或下载这些无用的文件,&lt;/p&gt;
+&lt;p&gt;因此, 我们需要一个方法, 永久的删除这些文件(包括该文件的历史记录).&lt;/p&gt;
+&lt;p&gt;首先, 可以参考 github 的帮助:&lt;br&gt;&lt;a href=&quot;https://help.github.com/articles/remove-sensitive-data&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;help.github.com&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="开发" scheme="https://blog.lvsijian.cn/categories/%E5%BC%80%E5%8F%91/"/>
+    
+      <category term="GitHub" scheme="https://blog.lvsijian.cn/categories/%E5%BC%80%E5%8F%91/GitHub/"/>
+    
+    
+      <category term="GitHub" scheme="https://blog.lvsijian.cn/tags/GitHub/"/>
+    
+      <category term="git" scheme="https://blog.lvsijian.cn/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>brew: command not found 修复 mac</title>
+    <link href="https://blog.lvsijian.cn/2017/03/19/brew-command-not-found-%E4%BF%AE%E5%A4%8D-mac/"/>
+    <id>https://blog.lvsijian.cn/2017/03/19/brew-command-not-found-修复-mac/</id>
+    <published>2017-03-19T06:46:32.000Z</published>
+    <updated>2017-03-19T06:46:32.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>之前就安装过brew，然后今天突然要用结果说<br><figure class="highlight bash hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">-bash: brew: <span class="hljs-built_in">command</span> not found</span><br></pre></td></tr></table></figure></p><p>然后在桌面版的Cakebrew里面也显示brew未安装…那我就重新安一下吧<br>安装很顺利不过有个警告<br><figure class="highlight bash hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Warning: /usr/<span class="hljs-built_in">local</span>/bin is not <span class="hljs-keyword">in</span> your PATH.</span><br><span class="line">==&gt; Installation successful!</span><br></pre></td></tr></table></figure></p><a id="more"></a><p>看了一下我的/usr/local/bin目录没问题啊…里面也有brew<br>然后用终端启动依然报错，才意识到有点问题。<br><figure class="highlight bash hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">-bash: brew: <span class="hljs-built_in">command</span> not found</span><br></pre></td></tr></table></figure></p><p>解决办法：更改bash配置文件（主目录中的.bashrc或.profile），并添加以下行<br><figure class="highlight bash hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="hljs-built_in">export</span> PATH=/usr/<span class="hljs-built_in">local</span>/bin:<span class="hljs-variable">$PATH</span></span><br></pre></td></tr></table></figure></p><p>感谢：<a href="http://stackoverflow.com/questions/14288682/error-installing-homebrew-brew-command-not-found" target="_blank" rel="noopener">stackoverflow</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;之前就安装过brew，然后今天突然要用结果说&lt;br&gt;&lt;figure class=&quot;highlight bash hljs&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;-bash: brew: &lt;span class=&quot;hljs-built_in&quot;&gt;command&lt;/span&gt; not found&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;然后在桌面版的Cakebrew里面也显示brew未安装…那我就重新安一下吧&lt;br&gt;安装很顺利不过有个警告&lt;br&gt;&lt;figure class=&quot;highlight bash hljs&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;Warning: /usr/&lt;span class=&quot;hljs-built_in&quot;&gt;local&lt;/span&gt;/bin is not &lt;span class=&quot;hljs-keyword&quot;&gt;in&lt;/span&gt; your PATH.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;==&amp;gt; Installation successful!&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="开发" scheme="https://blog.lvsijian.cn/categories/%E5%BC%80%E5%8F%91/"/>
+    
+      <category term="终端" scheme="https://blog.lvsijian.cn/categories/%E5%BC%80%E5%8F%91/%E7%BB%88%E7%AB%AF/"/>
+    
+    
+      <category term="bash" scheme="https://blog.lvsijian.cn/tags/bash/"/>
+    
+      <category term="brew" scheme="https://blog.lvsijian.cn/tags/brew/"/>
+    
+      <category term="终端" scheme="https://blog.lvsijian.cn/tags/%E7%BB%88%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>小米路由器Time Machine mac开机恢复</title>
+    <link href="https://blog.lvsijian.cn/2017/03/17/%E5%B0%8F%E7%B1%B3%E8%B7%AF%E7%94%B1%E5%99%A8Time-Machine-mac%E5%BC%80%E6%9C%BA%E6%81%A2%E5%A4%8D/"/>
+    <id>https://blog.lvsijian.cn/2017/03/17/小米路由器Time-Machine-mac开机恢复/</id>
+    <published>2017-03-17T05:51:33.000Z</published>
+    <updated>2017-03-17T05:51:33.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天mac异常的卡，不小心直接把盘给抹了，反正有小米路由器每天备份么。 但是command+R进入恢复模式就傻眼了，备份的东西不知道去哪里了。想想应该是，MAC在恢复模式根本就没有把小米路由器挂载过来嘛！ google了一个晚上，也试了很多方法，基本原理也就是怎么把小米路由器挂载过来，最后终于捣鼓出来了。现在拿出来和大家分享下<br><a id="more"></a></p><ol><li>进入恢复模式（command+R）</li><li>进入命令行（Terminal）</li><li>cd /Volumes</li><li>mkdir backup    # 创建挂载目录</li><li>mount -t afp afp:<a href="mailto://Guest@192.168.31.1" target="_blank" rel="noopener">//Guest@192.168.31.1</a>/MacBackup /Volumes/backup  #挂载小米路由器afp盘，注意192.168.31.1是小米路由器的默认ip地址，如果你有修改，请根据实际情况修改</li><li>hdid /Volumes/backup/第一个文件[文件名会很长很奇葩，这里直接Tab下就出来了，注意]    #不太确定这个命令的作用，应该是执行的意思，如果有童鞋知道，可以告诉我</li><li>退出 命令行（Terminal），回到最初的选择页面，选择从Time Machine恢复</li><li>这时候就可以看到小米路由器上挂载过来的磁盘了，选择那个磁盘，就可以正常恢复了。<br>感谢：<a href="http://igq.cc/2014/09/18/e4-bd-bf-e7-94-a8-嗯5-b0-8f-嗯7-b1-b3-嗯8-b7-af-嗯7-94-b1-嗯5-99-a8time-machine-嗯5-a4-87-嗯4-bb-bd-嗯6-81-a2-嗯5-a4-8d-mac-pro/" target="_blank" rel="noopener">http://igq.cc</a></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天mac异常的卡，不小心直接把盘给抹了，反正有小米路由器每天备份么。 但是command+R进入恢复模式就傻眼了，备份的东西不知道去哪里了。想想应该是，MAC在恢复模式根本就没有把小米路由器挂载过来嘛！ google了一个晚上，也试了很多方法，基本原理也就是怎么把小米路由器挂载过来，最后终于捣鼓出来了。现在拿出来和大家分享下&lt;br&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="闲聊" scheme="https://blog.lvsijian.cn/categories/%E9%97%B2%E8%81%8A/"/>
+    
+      <category term="mac" scheme="https://blog.lvsijian.cn/categories/%E9%97%B2%E8%81%8A/mac/"/>
+    
+    
+      <category term="mac" scheme="https://blog.lvsijian.cn/tags/mac/"/>
+    
+      <category term="Time Machine" scheme="https://blog.lvsijian.cn/tags/Time-Machine/"/>
+    
+      <category term="小米路由器" scheme="https://blog.lvsijian.cn/tags/%E5%B0%8F%E7%B1%B3%E8%B7%AF%E7%94%B1%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>vs vshost.exe 已停止工作</title>
+    <link href="https://blog.lvsijian.cn/2017/03/17/vs-vshost-exe-%E5%B7%B2%E5%81%9C%E6%AD%A2%E5%B7%A5%E4%BD%9C/"/>
+    <id>https://blog.lvsijian.cn/2017/03/17/vs-vshost-exe-已停止工作/</id>
+    <published>2017-03-17T05:48:06.000Z</published>
+    <updated>2017-03-17T05:48:06.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>这学期asp.NET的课，让我随便又重新接触了巨硬的vs，无奈之前安装了vs for mac的预览版却功能缺失，又不愿意在mac那寸土寸金的固态上安一个那么大的使用率又低的vs。所以就在学校的服务器上安了个vs2015 update3和sql server 2014嘿嘿嘿。<br><a id="more"></a></p><h2 id="环境"><a href="#环境" class="headerlink" title="环境"></a>环境</h2><p>学校IBM的大服务器比较老,配套的光盘驱动都还是server 2008 R2的，所以那时候也就直接安了,原本准备安sql server 2016的，结果怎么折腾都发现选择功能选项里只有两个功能可以选择，后来看巨硬的文档才发现sql server2016已经不支持2008 R2了。搞的我那时候折腾了那么久，直接再上itellyou找了个2014的官方镜像扔路由器里，上完课就下好了，安装也终于顺利完成。</p><h2 id="BUG"><a href="#BUG" class="headerlink" title="BUG"></a>BUG</h2><p>vs2015 update3虽然安了很久，可是一切顺利，等到要运行的时候却发现项目怎么无法启动。上课问老师结果发现连最基本的程序也无法启动，劝我换版本。我岂会那么容易就放弃？？？一开始是上午搜报错码结果微软说是什么缺少更新IE补丁。看起来好像有点道理毕竟这系统那么老IE都是8的版本(那时候一直想要升级IE11结果离线安装包一直卡住。。。)折腾一番依然无果。</p><p>接着又换了一个关键词，这次搜”vshost.exe 已停止工作”，结果第一个就是解决方案哈哈哈。</p><h2 id="正题"><a href="#正题" class="headerlink" title="正题"></a>正题</h2><blockquote><p>下面是正题了:说一下我的环境,Windows server 2008 R2 x64 的IBM服务器<br>vs2015 update3运行任何程序都是弹”vshost.exe 已停止工作”.报错:”返回值为 -1073740771 (0xc000041d)。”</p></blockquote><p><img src="https://images.lvsijian.cn/picGO/Blog/shost.exe 已停止工作.png?imageslim" alt="vshost.exe 已停止工作"></p><p>只需要,右键工程文件属性,去掉生成中的首选32位的选项框!即可.</p><p><img src="https://images.lvsijian.cn/picGO/Blog/vs首选32位.png?imageslim" alt="vs首选32位"></p><p>暂时没找到在ide里哪里设置,这样的话可能就要每次每个项目都要这样重新设置了.希望大家有一劳永逸的解决办法可以一起分享</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h2&gt;&lt;p&gt;这学期asp.NET的课，让我随便又重新接触了巨硬的vs，无奈之前安装了vs for mac的预览版却功能缺失，又不愿意在mac那寸土寸金的固态上安一个那么大的使用率又低的vs。所以就在学校的服务器上安了个vs2015 update3和sql server 2014嘿嘿嘿。&lt;br&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="开发" scheme="https://blog.lvsijian.cn/categories/%E5%BC%80%E5%8F%91/"/>
+    
+      <category term="vs" scheme="https://blog.lvsijian.cn/categories/%E5%BC%80%E5%8F%91/vs/"/>
+    
+    
+      <category term="asp" scheme="https://blog.lvsijian.cn/tags/asp/"/>
+    
+      <category term="vs" scheme="https://blog.lvsijian.cn/tags/vs/"/>
     
   </entry>
   
@@ -119,12 +259,43 @@
     
       <category term="闲聊" scheme="https://blog.lvsijian.cn/categories/%E9%97%B2%E8%81%8A/"/>
     
+      <category term="mac" scheme="https://blog.lvsijian.cn/categories/%E9%97%B2%E8%81%8A/mac/"/>
+    
+    
+      <category term="Time Machine" scheme="https://blog.lvsijian.cn/tags/Time-Machine/"/>
+    
+      <category term="小米路由器" scheme="https://blog.lvsijian.cn/tags/%E5%B0%8F%E7%B1%B3%E8%B7%AF%E7%94%B1%E5%99%A8/"/>
     
       <category term="备份" scheme="https://blog.lvsijian.cn/tags/%E5%A4%87%E4%BB%BD/"/>
     
-      <category term="时间胶囊" scheme="https://blog.lvsijian.cn/tags/%E6%97%B6%E9%97%B4%E8%83%B6%E5%9B%8A/"/>
+  </entry>
+  
+  <entry>
+    <title>Xcode 免费真机调试</title>
+    <link href="https://blog.lvsijian.cn/2016/11/01/Xcode-%E5%85%8D%E8%B4%B9%E7%9C%9F%E6%9C%BA%E8%B0%83%E8%AF%95/"/>
+    <id>https://blog.lvsijian.cn/2016/11/01/Xcode-免费真机调试/</id>
+    <published>2016-11-01T02:57:44.000Z</published>
+    <updated>2016-11-01T02:57:44.000Z</updated>
     
-      <category term="小米路由器" scheme="https://blog.lvsijian.cn/tags/%E5%B0%8F%E7%B1%B3%E8%B7%AF%E7%94%B1%E5%99%A8/"/>
+    <content type="html"><![CDATA[<p>从去年的Xcode 7开始，就可以在不加入每年99美元的苹果开发者计划的情况下进行真机调试了。</p><p>首先确保你安装的Xcode应用程序是7以上的版本，进入Xcode后，点击左上角Xcode菜单中的Preferences，进入Accounts标签中点击左下角的加号登陆添加的你Apple ID，添加成功后界面如下图，选中账户后点击右下角的View Details。</p><p><img src="https://images.lvsijian.cn/picGO/Blog/Xcode-Accounts.png?imageslim" alt="Xcode-Accounts"></p><p>等加载完后点击iOS Development右侧的create并右键export即可，<br><a id="more"></a><br><img src="https://images.lvsijian.cn/picGO/Blog/Xcode-export.png?imageslim" alt="Xcode-export"></p><p>接下来进入需要真机调试的iOS项目，在左侧点击项目名，在项目General页的Team中选中刚才添加对应的Apple ID项即可</p><p><img src="https://images.lvsijian.cn/picGO/Blog/Xcode-General.jpg?imageslim" alt="Xcode-General"></p><p>然后链接手机运行iOS项目并在手机上的设置，通用，描述文件中选择信任刚刚运行的iOS项目程序即可</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;从去年的Xcode 7开始，就可以在不加入每年99美元的苹果开发者计划的情况下进行真机调试了。&lt;/p&gt;
+&lt;p&gt;首先确保你安装的Xcode应用程序是7以上的版本，进入Xcode后，点击左上角Xcode菜单中的Preferences，进入Accounts标签中点击左下角的加号登陆添加的你Apple ID，添加成功后界面如下图，选中账户后点击右下角的View Details。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://images.lvsijian.cn/picGO/Blog/Xcode-Accounts.png?imageslim&quot; alt=&quot;Xcode-Accounts&quot;&gt;&lt;/p&gt;
+&lt;p&gt;等加载完后点击iOS Development右侧的create并右键export即可，&lt;br&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="开发" scheme="https://blog.lvsijian.cn/categories/%E5%BC%80%E5%8F%91/"/>
+    
+      <category term="Xcode" scheme="https://blog.lvsijian.cn/categories/%E5%BC%80%E5%8F%91/Xcode/"/>
+    
+    
+      <category term="Xcode" scheme="https://blog.lvsijian.cn/tags/Xcode/"/>
+    
+      <category term="iOS" scheme="https://blog.lvsijian.cn/tags/iOS/"/>
     
   </entry>
   
