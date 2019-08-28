@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.lvsijian.cn/"/>
-  <updated>2019-08-28T08:32:48.087Z</updated>
+  <updated>2019-08-28T08:35:34.531Z</updated>
   <id>https://blog.lvsijian.cn/</id>
   
   <author>
@@ -21,16 +21,17 @@
     <link href="https://blog.lvsijian.cn/2019/08/28/%E5%BC%80%E5%AD%A6%E7%94%B3%E8%AF%B7%E4%B8%AACourse-%E5%8A%A9%E5%AD%A6%E9%87%91/"/>
     <id>https://blog.lvsijian.cn/2019/08/28/开学申请个Course-助学金/</id>
     <published>2019-08-28T03:41:09.000Z</published>
-    <updated>2019-08-28T08:32:48.087Z</updated>
+    <updated>2019-08-28T08:35:34.531Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="摸索"><a href="#摸索" class="headerlink" title="摸索"></a>摸索</h2><p>从7月底开始，自己在学习新知识的路上模模糊糊的摸索，先是了解到多智能体系统（MAS， Multi-AgentSystem）是分布式人工智能的一部分，这些当然也都是人工智能的一部分。由此开启了学习之路，开始探索AI学习的资源。先是找了一部分网上评级不错的网课：</p><blockquote><p>吴恩达的机器学习<br>李宏毅机器学习<br>台大林轩田机器学习基石+技法<br>吴恩达深度学习<br>斯坦福系列的：机器学习CS229 机器视觉CS231n 自然语言处理CS224n 增强学习CS294</p></blockquote><p>还有一些书籍：</p><blockquote><p>机器学习实战<br>统计学习方法 李航<br>机器学习 西瓜书<br>深度学习 花书</p></blockquote><p>听说吴恩达的机器学习不错，Course也有相应的习题编程练习，字幕校验的也比较好，所以就选择了从这个开始。<br><img src="https://images.lvsijian.cn/picGO/Blog/ML-CERTIFICATE.png?imageslim" alt="ML-CERTIFICATE"></p><p>先开始了免费试用，然后发现也可以和正常用户一样提交代码获取分数。好像只是没有证书，所以就申请在看课过程中申请了助学金。(在申请过程中上面是有说明申请过程不可试用，试用的和不能申请。可是也申请成功了🤣)</p><p>然后准备看deep learning的Course微专业课程，可是这次页面多了一个只能试用7天，所以就不太敢一边试用一边申请助学金了。申请一次助学金要等14天两周，在等待申请的期间就把李宏毅的机器学习2019也看了两周的课程，发现Ag讲的确实会亲民一些，作业也可以只看可就无基础的完成了。</p><p><img src="https://images.lvsijian.cn/picGO/Blog/HW1.jpg?imageslim" alt="HW1"></p><p>因为之前没有提前学校 Python 在 ML 方面的应用，所以调包什么的也不是很熟悉，李宏毅的作业就做的有点困难。。。所以就一边等助学金一边帮老师做东西一边看李宏毅的课。</p><p>等申请下来了才发现Ag的DL课是一个系列5门课程🙈，其中的5个课程每一个都需要单独申请助学金(又要等14天)。。。</p><p>接下来就先看DL的第一个课程吧。</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="摸索"><a href="#摸索" class="headerlink" title="摸索"></a>摸索</h2><p>从7月底开始，自己在学习新知识的路上模模糊糊的摸索，先是了解到多智能体系统（MAS， Multi-AgentSystem）是分布式人工智能的一部分，这些当然也都是人工智能的一部分。由此开启了学习之路，开始探索AI学习的资源。先是找了一部分网上评级不错的网课：</p><blockquote><p>吴恩达的机器学习<br>李宏毅机器学习<br>台大林轩田机器学习基石+技法<br>吴恩达深度学习<br>斯坦福系列的：机器学习CS229 机器视觉CS231n 自然语言处理CS224n 增强学习CS294</p></blockquote><p>还有一些书籍：</p><a id="more"></a><blockquote><p>机器学习实战<br>统计学习方法 李航<br>机器学习 西瓜书<br>深度学习 花书</p></blockquote><p>听说吴恩达的机器学习不错，Course也有相应的习题编程练习，字幕校验的也比较好，所以就选择了从这个开始。<br><img src="https://images.lvsijian.cn/picGO/Blog/ML-CERTIFICATE.png?imageslim" alt="ML-CERTIFICATE"></p><p>先开始了免费试用，然后发现也可以和正常用户一样提交代码获取分数。好像只是没有证书，所以就申请在看课过程中申请了助学金。(在申请过程中上面是有说明申请过程不可试用，试用的和不能申请。可是也申请成功了🤣)</p><p>然后准备看deep learning的Course微专业课程，可是这次页面多了一个只能试用7天，所以就不太敢一边试用一边申请助学金了。申请一次助学金要等14天两周，在等待申请的期间就把李宏毅的机器学习2019也看了两周的课程，发现Ag讲的确实会亲民一些，作业也可以只看可就无基础的完成了。</p><p><img src="https://images.lvsijian.cn/picGO/Blog/HW1.jpg?imageslim" alt="HW1"></p><p>因为之前没有提前学校 Python 在 ML 方面的应用，所以调包什么的也不是很熟悉，李宏毅的作业就做的有点困难。。。所以就一边等助学金一边帮老师做东西一边看李宏毅的课。</p><p>等申请下来了才发现Ag的DL课是一个系列5门课程🙈，其中的5个课程每一个都需要单独申请助学金(又要等14天)。。。</p><p>接下来就先看DL的第一个课程吧。</p>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;h2 id=&quot;摸索&quot;&gt;&lt;a href=&quot;#摸索&quot; class=&quot;headerlink&quot; title=&quot;摸索&quot;&gt;&lt;/a&gt;摸索&lt;/h2&gt;&lt;p&gt;从7月底开始，自己在学习新知识的路上模模糊糊的摸索，先是了解到多智能体系统（MAS， Multi-AgentSystem）是分布式人工智能的
-      
+      &lt;h2 id=&quot;摸索&quot;&gt;&lt;a href=&quot;#摸索&quot; class=&quot;headerlink&quot; title=&quot;摸索&quot;&gt;&lt;/a&gt;摸索&lt;/h2&gt;&lt;p&gt;从7月底开始，自己在学习新知识的路上模模糊糊的摸索，先是了解到多智能体系统（MAS， Multi-AgentSystem）是分布式人工智能的一部分，这些当然也都是人工智能的一部分。由此开启了学习之路，开始探索AI学习的资源。先是找了一部分网上评级不错的网课：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;吴恩达的机器学习&lt;br&gt;李宏毅机器学习&lt;br&gt;台大林轩田机器学习基石+技法&lt;br&gt;吴恩达深度学习&lt;br&gt;斯坦福系列的：机器学习CS229 机器视觉CS231n 自然语言处理CS224n 增强学习CS294&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;还有一些书籍：&lt;/p&gt;
     
     </summary>
     
@@ -118,11 +119,11 @@
       <category term="终端" scheme="https://blog.lvsijian.cn/categories/%E5%BC%80%E5%8F%91/%E7%BB%88%E7%AB%AF/"/>
     
     
+      <category term="bash" scheme="https://blog.lvsijian.cn/tags/bash/"/>
+    
       <category term="zsh" scheme="https://blog.lvsijian.cn/tags/zsh/"/>
     
       <category term="nvm" scheme="https://blog.lvsijian.cn/tags/nvm/"/>
-    
-      <category term="bash" scheme="https://blog.lvsijian.cn/tags/bash/"/>
     
   </entry>
   
@@ -233,11 +234,11 @@
       <category term="终端" scheme="https://blog.lvsijian.cn/categories/%E5%BC%80%E5%8F%91/%E7%BB%88%E7%AB%AF/"/>
     
     
-      <category term="bash" scheme="https://blog.lvsijian.cn/tags/bash/"/>
-    
       <category term="brew" scheme="https://blog.lvsijian.cn/tags/brew/"/>
     
       <category term="终端" scheme="https://blog.lvsijian.cn/tags/%E7%BB%88%E7%AB%AF/"/>
+    
+      <category term="bash" scheme="https://blog.lvsijian.cn/tags/bash/"/>
     
   </entry>
   
@@ -261,11 +262,11 @@
       <category term="Mac" scheme="https://blog.lvsijian.cn/categories/%E7%94%9F%E6%B4%BB/Mac/"/>
     
     
-      <category term="Mac" scheme="https://blog.lvsijian.cn/tags/Mac/"/>
-    
       <category term="Time Machine" scheme="https://blog.lvsijian.cn/tags/Time-Machine/"/>
     
       <category term="小米路由器" scheme="https://blog.lvsijian.cn/tags/%E5%B0%8F%E7%B1%B3%E8%B7%AF%E7%94%B1%E5%99%A8/"/>
+    
+      <category term="Mac" scheme="https://blog.lvsijian.cn/tags/Mac/"/>
     
   </entry>
   
@@ -315,11 +316,11 @@
       <category term="Mac" scheme="https://blog.lvsijian.cn/categories/%E7%94%9F%E6%B4%BB/Mac/"/>
     
     
+      <category term="备份" scheme="https://blog.lvsijian.cn/tags/%E5%A4%87%E4%BB%BD/"/>
+    
       <category term="Time Machine" scheme="https://blog.lvsijian.cn/tags/Time-Machine/"/>
     
       <category term="小米路由器" scheme="https://blog.lvsijian.cn/tags/%E5%B0%8F%E7%B1%B3%E8%B7%AF%E7%94%B1%E5%99%A8/"/>
-    
-      <category term="备份" scheme="https://blog.lvsijian.cn/tags/%E5%A4%87%E4%BB%BD/"/>
     
   </entry>
   
